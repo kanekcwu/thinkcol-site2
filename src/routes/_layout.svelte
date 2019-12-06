@@ -17,7 +17,7 @@
 
 		--button-colour : transparent;
         --button-text-colour: #242424;
-		--button-active-colour : #da4315;
+		--button-active-colour : #f7574b;
         --button-active-text-colour: white;
 	}
 </style>

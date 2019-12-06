@@ -54,7 +54,7 @@
         column-gap: 1em;
         row-gap: 1em;
         word-break: break-word;
-        --text-colour: #0f6b0f;
+        --text-colour: #00A06F;
         color: var(--text-colour);
     }
 

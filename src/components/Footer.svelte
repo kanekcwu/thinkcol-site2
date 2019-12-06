@@ -5,7 +5,7 @@
         bottom:0;
         left:0;
         right:0;
-        background-color: #304864;
+        background-color: #30486c;
         color: white;
         padding: 2em;
         word-wrap: break-word;
@@ -37,7 +37,7 @@
 
 
     form button {
-        background-color: #ff5e00;
+        background-color: #f7574b;
         color:white;
     }
     form button,form input {
