@@ -4,6 +4,7 @@
 
 <script>
 	import { goto } from "@sapper/app";
+
 </script>
 
 
@@ -13,9 +14,18 @@
 		grid-auto-rows: min-content;
 	}
 
+	.bottom {
+		display:grid;
+		grid-auto-rows: min-content;
+		justify-self:center;
+	}
+
+	.bottom > .buttons > button {
+		padding: 10px 40px 10px 40px;
+	}
+
 	.buttons {
 		justify-self: center;
-		margin: 3em 0;
 	}
 
 	.buttons > button {
@@ -46,7 +56,14 @@
 			column-gap: 1em;
 		}
 	}
-	
+
+	.timeline-content{
+	width:400px;
+	}
+	.timeline-item:nth-of-type(2n) .timeline-content{
+	width:400px;
+	flex-basis:auto;
+	}
 </style>
 
 <div id="aboutus">
@@ -55,17 +72,116 @@
 		<h1>About us</h1>
 
 		<p>
-			Here at ThinkCol, our passions drive us to deliver the best AI solutions. ThinkCol spearheads data solutions
-			through artificial intelligence and machine learning. We work with clients in an AI ecosystem to transform them
-			into data-driven entities. This includes creating custom-made AI solutions, consulting, providing training, 
-			and organising hackathons and more. Over time, ThinkCol has grown from serving its first client, Lenovo, to reaching
+			Here at ThinkCol, our passions drive us to deliver the best AI solutions. ThinkCol spearheads data solutions through artificial intelligence and machine learning. 
+		</p> <p>
+			We work with clients in an AI ecosystem to transform them into data-driven entities. This includes creating custom-made AI solutions, consulting, providing training, 
+			and organising hackathons and more. 
+			</p>
+			<p>Over time, ThinkCol has grown from serving its first client, Lenovo, to reaching
 			powerhouses of different industries.
 		</p>
 
 		<div class="buttons">
-			<button on:click={()=>goto("service")}>Our Services</button>
+			<button on:click={()=>goto("cases")}>Case Studies</button>
 			<button on:click={()=>goto("contact")}>Contact Us</button>
 		</div>
 	</div>
 	
+</div>
+<div class="timeline is-centered">
+    <header class="timeline-header"></header>
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Founding.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content" style="padding-top:0px;">
+            <p class="heading">2016</p>
+            <b>Founded ThinkCol</b>
+            <p class="smalltxt">Kane & Sam founded Thinkcol in 2016 after their data consultancy experience in Ernst & Young</p>
+        </div>
+    </div>
+
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_AIWorkshop_1.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content" style="padding-top:0px;">
+            <p class="heading">2017</p>
+            <b>Created Hong Kong Data Science Society</b>
+            <p class="smalltxt">Created HKDSS to promote data science in Hong Kong through workshops and talks</p>
+        </div>
+    </div>
+
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Lenovo.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content">
+            <p class="heading">2017</p>
+            <b>Lenovo NLP Project</b>
+            <p class="smalltxt">Created more than 100 AI models to automatically generate social media insights for Lenovo Beijing</p>
+        </div>
+    </div>
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Li%26FungHackathon.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content" style="padding-top:0px;">
+            <p class="heading">2017</p>
+            <b>Hosted first data science hackathon for Li & Fung</b>
+            <p class="smalltxt">Li & Fung engaged ThinkCol to organise the first data science hackathon in Hong Kong</p>
+        </div>
+    </div>
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_ASWastonBusinessUnit.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content">
+            <p class="heading">March 2018</p>
+            <b>Started AI.Lab with A.S Watson</b>
+            <p class="smalltxt">Created AI.Lab to create more than 30 AI prototypes for different Business Units of A.S. Watson</p>
+        </div>
+    </div>
+
+
+
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Fasta.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content" style="padding-top:0px;">
+            <p class="heading">2019</p>
+            <b>Provided AI services to 20 major companies in Hong Kong</b>
+            <p class="smalltxt">Services include Machine Learning, Visualization, Hackathons and Training</p>
+        </div>
+    </div>
+
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_ExpandingTeam.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content">
+            <p class="heading">2019</p>
+            <b>Team grew from 3 people to 15 people</b>
+            <p class="smalltxt">Established both consulting team and product team</p>
+        </div>
+    </div>
+
+    <div class="timeline-item is-info">
+        <div class="timeline-marker is-info is-image is-128x128">
+            <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_HKTaiwan.png" alt="timeline image" height="128px"/>
+        </div>
+        <div class="timeline-content" style="padding-top:0px;">
+            <p class="heading">2019</p>
+            <b>Expanded to Taiwan</b>
+            <p class="smalltxt">Created a Taiwan branch to start extending our services in different regions</p>
+        </div>
+    </div>
+
+</div>
+<div class = "bottom">
+	<div class="buttons">
+		<button on:click={()=>goto("cases")}>Learn More</button>
+		<button on:click={()=>goto("contact")}>Contact Us</button>
+	</div>
 </div>

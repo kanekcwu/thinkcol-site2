@@ -1,3 +1,5 @@
+
+
 <style>
     footer {
         display: flex;
@@ -15,15 +17,17 @@
     @media only screen and (min-width: 769px) {
         footer{
             display:grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
             grid-auto-rows: min-content auto min-content;
             column-gap: 2em;
         }
         footer > * {
-            justify-self: center;
+            justify-self: left;
         }
         footer #copyright {
-            grid-column: 2 / span 1;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            justify-self:stretch;
             text-align: center;
         }
     }
@@ -50,6 +54,15 @@
         font-size: 0.9em;
     }
 
+    b{
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    .footer-links {
+    display:grid;
+    align-items:center;
+    }
+
 
 </style>
 
@@ -59,12 +72,21 @@
         const fd = new FormData(e.target);
         const fdobj = Object.fromEntries(fd);
     }
+    export let segment;
 </script>
 
 <footer>
     <div>
-        <h3>About Us</h3>
-        <p>Our mission is to promote collaborative thinking with A.I. Technology</p>
+        <img src= 'thinkcolwhite.png' alt='Thinkcol' height='25px'/>
+        <br>
+        <b>Our mission is to promote collaborative thinking with A.I. Technology</b>
+    </div>
+    <div class = "footer-links">
+        <a class:selected='{segment === undefined}' href='.'>Home</a>
+        <a class:selected='{segment === "about"}' href='about'>About</a>
+        <a class:selected='{segment ===" team"}' href='.'>Team</a>
+        <a class:selected='{segment === "service"}' href='service'>Service</a>
+        <a class:selected='{segment === "case"}' href='case'>Case Studies</a>
     </div>
     <div>
         <h3>Contact</h3>
