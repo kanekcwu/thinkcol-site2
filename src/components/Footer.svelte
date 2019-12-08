@@ -37,6 +37,10 @@
         h3 {
             text-decoration: underline;
         }
+
+        footer > div {
+            padding-top:20px;
+        }
     }
 
 
@@ -81,12 +85,16 @@
         <br>
         <b>Our mission is to promote collaborative thinking with A.I. Technology</b>
     </div>
-    <div class = "footer-links">
-        <a class:selected='{segment === undefined}' href='.'>Home</a>
-        <a class:selected='{segment === "about"}' href='about'>About</a>
-        <a class:selected='{segment ===" team"}' href='.'>Team</a>
-        <a class:selected='{segment === "service"}' href='service'>Service</a>
-        <a class:selected='{segment === "case"}' href='case'>Case Studies</a>
+    <div class = "footer-links d-none d-lg-block">
+        <h3> Links </h3>
+        <ul>
+            <li><a class:selected='{segment === undefined}' href='.'>Home</a>
+            </li><li><a class:selected='{segment === "about"}' href='about'>About</a>
+            </li><li><a class:selected='{segment ===" team"}' href='.'>Team</a>
+            </li><li><a class:selected='{segment === "service"}' href='service'>Service</a>
+            </li><li><a class:selected='{segment === "case"}' href='case'>Case Studies</a>
+            </li>
+        </ul>
     </div>
     <div>
         <h3>Contact</h3>

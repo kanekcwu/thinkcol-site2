@@ -1,3 +1,6 @@
+<svelte:head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</svelte:head>
 <script>
 	export let segment;
 	import { goto } from "@sapper/app";
@@ -79,15 +82,31 @@
         background-color: var(--button-active-colour);
         color:var(--button-active-text-colour);
     }
+	.sticky {
+	  position: -webkit-sticky;
+	  position: -moz-sticky;
+	  position: -ms-sticky;
+	  position: -o-sticky;
+	  position: sticky;
+	  top: 0px;
+	  z-index: 100;
+	}
 
 </style>
 
-<nav>
-	<a class="logo" href='.'><img src="thinkcol-logo.png" alt="logo" height="35px" /></a>
-	<ul>
-		<li><a class:selected='{segment === undefined}' href='.'>Home</a></li>
-		<li><a class:selected='{segment === "about"}' href='about'>About</a></li>
-		<li><a class:selected='{segment === "cases"}' href='cases'>Case Studies</a></li>
-		<li><button on:click={()=>goto("contact")}>Contact</button></li>
-	</ul>
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top sticky" style = "background-color: #ffffff">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand logo" href='.'><img src="thinkcol-logo.png" alt="logo" height="35px" /></a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class:selected='{segment === undefined}' href='.'>Home</a></li>
+	  <li class="nav-item"><a class:selected='{segment === "about"}' href='about'>About</a></li>
+	  <li class="nav-item"><a class:selected='{segment === "cases"}' href='cases'>Case Studies</a></li>
+	  <li class="nav-item"><button on:click={()=>goto("contact")}>Contact</button></li>
+    </ul>
+  </div>
 </nav>

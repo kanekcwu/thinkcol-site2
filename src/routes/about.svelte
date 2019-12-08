@@ -67,7 +67,7 @@
 </style>
 
 <div id="aboutus">
-	<img src="about.png" alt="about_us" />
+	<img class = "d-none d-lg-block" src="about.png" alt="about_us" height="300px"/>
 	<div>
 		<h1>About us</h1>
 
@@ -88,7 +88,7 @@
 	</div>
 	
 </div>
-<div class="timeline is-centered">
+<div class="timeline is-centered" style="padding-top:50px">
     <header class="timeline-header"></header>
     <div class="timeline-item is-info">
         <div class="timeline-marker is-info is-image is-128x128">
