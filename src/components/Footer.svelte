@@ -49,13 +49,14 @@
         color:white;
     }
     form button,form input {
-        padding: 0.7em 1em;
+        padding: 0.5em 0.5em;
         border-radius: 5px;
         border: 0;
     }
 
     p {
         font-size: 0.9em;
+        margin:0px;
     }
 
     b{
@@ -66,7 +67,12 @@
         display:grid;
         align-items:center;
     }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
         /* clearfix */
+    }
     ul::after {
         content: '';
         display: block;
@@ -93,9 +99,11 @@
 
 <footer>
     <div>
-        <img src= 'thinkcolwhite.png' alt='Thinkcol' height='25px'/>
+        <img src= 'thinkcolwhite.png' alt='Thinkcol' class = 'mb-2' height='25px'/>
         <br>
-        <b>Our mission is to promote collaborative thinking with A.I. Technology</b>
+
+        <p>
+        <b>Our mission is to promote collaborative thinking with A.I. Technology</b></p>
     </div>
     <div class = "footer-links d-none d-lg-block">
         <h3> Links </h3>

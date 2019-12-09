@@ -103,7 +103,7 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class:selected='{segment === undefined}' href='.'>Home</a></li>
+      <li class="nav-item"><a on:click={()=>goto("contact")>Home</a></li>
 	  <li class="nav-item"><a class:selected='{segment === "about"}' href='about'>About</a></li>
 	  <li class="nav-item"><a class:selected='{segment === "cases"}' href='cases'>Case Studies</a></li>
 	  <li class="nav-item"><button on:click={()=>goto("contact")}>Contact</button></li>

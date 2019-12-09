@@ -48,8 +48,8 @@
 		display:grid;
 		align-items: center;
 		justify-items: center;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		grid-gap:20px;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		grid-gap:80px;
 	}
 
 	img {

@@ -13,8 +13,8 @@
 		align-items: center;
 		justify-items: center;
 		text-align: justify;
-		grid-template-columns:  repeat(auto-fit, minmax(400px, 1fr));
-		grid-gap: 40px;
+		grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+		grid-gap: 50px;
 		padding-bottom:20px;
 	}
 
@@ -28,6 +28,7 @@
 	margin-top:10px;
 	}
 	h2 {
+	text-align:left;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
@@ -57,7 +58,7 @@
 	}
 
 	.buttons > button {
-		margin: 0 1em;
+		justify-self:left;
 	}
 
 	button {
@@ -119,7 +120,6 @@
 
 	@media only screen and (max-width: 650px) {
 		img {
-		  max-height: 100%;
 		  max-width: 100%;
 		}
 		div#figures {
@@ -138,7 +138,7 @@
 		}
 
 		div#index img{
-			width:300px;
+			width:auto;
 		}
 		div#journey {
 			padding:1em;
