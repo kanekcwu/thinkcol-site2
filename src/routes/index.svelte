@@ -9,9 +9,11 @@
 		display:grid;
 		align-items: center;
 		justify-items: center;
+		text-align: justify;
 		grid-template-columns:  repeat(auto-fit, minmax(400px, 1fr));
 		grid-gap: 40px;
 		color: #30486C;
+		padding-bottom:20px;
 	}
 	b{
 	color:#009FDB;
@@ -83,7 +85,7 @@
 	div#journey {
 		display:grid;
 		grid-template-columns: 100px auto 100px;
-		text-align:center;
+		text-align:justify;
 	}
 
 	div#ml-services{
@@ -93,9 +95,16 @@
 		grid-template-columns:  repeat(auto-fit, minmax(150px, 1fr));
 	}
 
+	.figures_img{
+		height:150px;
+		padding:30px;
+	}
 
-
-
+	.ml_img{
+		height:130px;
+		padding-top:20px;
+		padding-bottom:10px;
+	}
 
 </style>
 
@@ -117,19 +126,22 @@
 
 	</div>
 	<div>
-		<img src="home.png" alt="home" />
+		<img src="home.png" alt="home" height = "500px"/>
 	</div>
 </div>
 
 <div id = "figures">
 	<div>
 		<h4> <b>14+</b> Industries</h4>
+		<img src = "Industry.png", alt = 'industry' class = "figures_img"/>
 	</div>
 	<div>
 		<h4> <b>100+</b> Prototypes/AI Solutions</h4>
+		<img src = "AI Solution.png", alt = 'ai solution' class = "figures_img"/>
 	</div>
 	<div>
 		<h4> <b>23+</b> Hackathons</h4>
+		<img src = "Hackathon.png", alt = 'hackathon' class = "figures_img"/>
 	</div>
 </div>
 
@@ -147,9 +159,20 @@
 </div>
 
 <div id = "ml-services">
-	<div><h5>Natural Language Processing</h5></div>
-	<div><h5>Predictive Analytics</h5></div>
-	<div><h5>Visualization</h5></div>
-	<div><h5>Computer Vision</h5></div>
-	<div><h5>Big Data Processing</h5></div>
+	<div>
+		<img src = "Natural Language Processing.png", alt = 'ai solution' class = "ml_img"/>
+		<h5>Natural Language Processing</h5>
+	</div>
+	<div>
+		<img src = "Predictive Analytics.png", alt = 'ai solution' class = "ml_img"/>
+		<h5>Predictive Analytics</h5></div>
+	<div>
+		<img src = "Visualization.png", alt = 'ai solution' class = "ml_img" style="margin-left:20px"/>
+		<h5>Visualization</h5></div>
+	<div>
+		<img src = "Computer Vision.png", alt = 'ai solution' class = "ml_img"/>
+		<h5>Computer Vision</h5></div>
+	<div>
+		<img src = "Big Data Processing.png", alt = 'ai solution' class = "ml_img"/>
+		<h5>Big Data Processing</h5></div>
 </div>

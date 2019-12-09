@@ -57,6 +57,12 @@
 		}
 	}
 
+    .timeline .timeline-item .timeline-marker.is-image{
+        border: 0px solid #ffffff;
+        background:#ffffff;
+    }
+
+
 	.timeline-content{
 	width:400px;
 	}
@@ -72,13 +78,11 @@
 		<h1>About us</h1>
 
 		<p>
-			Here at ThinkCol, our passions drive us to deliver the best AI solutions. ThinkCol spearheads data solutions through artificial intelligence and machine learning. 
+			Having met in their previous consulting jobs, Kane and Sam sparked the same idea in providing quality AI services.  They believe in the self-sustainable power of AI and see the potential it brings for organizations, regardless of their size and industry.  
+ 
 		</p> <p>
-			We work with clients in an AI ecosystem to transform them into data-driven entities. This includes creating custom-made AI solutions, consulting, providing training, 
-			and organising hackathons and more. 
-			</p>
-			<p>Over time, ThinkCol has grown from serving its first client, Lenovo, to reaching
-			powerhouses of different industries.
+             
+            ThinkCol’s team has grown over the years.  It is now home to consultants, business analysts, data scientists, programmers and UI/UX designers.  Our diverse team works actively to identify clients’ business risks, develop potential ideas through constant communication and collaboration in our AI ecosystem.
 		</p>
 
 		<div class="buttons">
@@ -91,7 +95,7 @@
 <div class="timeline is-centered" style="padding-top:50px">
     <header class="timeline-header"></header>
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Founding.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content" style="padding-top:0px;">
@@ -102,10 +106,10 @@
     </div>
 
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker  is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_AIWorkshop_1.png" alt="timeline image" height="128px"/>
         </div>
-        <div class="timeline-content" style="padding-top:0px;">
+        <div class="timeline-content">
             <p class="heading">2017</p>
             <b>Created Hong Kong Data Science Society</b>
             <p class="smalltxt">Created HKDSS to promote data science in Hong Kong through workshops and talks</p>
@@ -113,7 +117,7 @@
     </div>
 
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Lenovo.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content">
@@ -123,7 +127,7 @@
         </div>
     </div>
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Li%26FungHackathon.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content" style="padding-top:0px;">
@@ -133,7 +137,7 @@
         </div>
     </div>
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_ASWastonBusinessUnit.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content">
@@ -146,7 +150,7 @@
 
 
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_Fasta.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content" style="padding-top:0px;">
@@ -157,7 +161,7 @@
     </div>
 
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_ExpandingTeam.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content">
@@ -168,7 +172,7 @@
     </div>
 
     <div class="timeline-item is-info">
-        <div class="timeline-marker is-info is-image is-128x128">
+        <div class="timeline-marker is-image is-128x128">
             <img src="https://thinkcol-site-assets.s3.ap-east-1.amazonaws.com/Milestone_icon_HKTaiwan.png" alt="timeline image" height="128px"/>
         </div>
         <div class="timeline-content" style="padding-top:0px;">

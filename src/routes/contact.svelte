@@ -4,8 +4,9 @@
         display:grid;
         grid-auto-flow: row;
         row-gap: 1em;
-        background-color: #0eb1b1;
+        background-color: #66C7CD;
         padding: 2em;
+        padding-top:4em;
         margin:auto;
     }
 
@@ -13,12 +14,13 @@
         padding: 1em;
     }
     form textarea {
-        padding: 3em;
+        padding: 1em;
     }
 
+
     form input, form textarea {
-        opacity: 0.8;
-        background-color: #25dadad3;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #000000;
         border: 0;
     }
 
@@ -33,8 +35,9 @@
 
 
     form button {
-        padding: 1em 2em;
-        background-color: #27253a;
+        margin: 1em 0em;
+        padding: .3em 2em;
+        background-color: #30486c;
         border:0;
         border-radius: 5px;
         color: white;
@@ -42,24 +45,31 @@
     }
 
     span {
-        background-color: #27253a;
+        background-color: #30486c;
         color:white;
         padding: 2em;
         border-radius: 5px;
         display: block;
-        margin: 2em 0;
+        margin: 0em 5em;
+        margin-top:30px;
+        position:relative;
+        bottom:-40px;
     }
 
     /* BIG desktop only */
     @media only screen and (min-width: 1255px) {
         span {
             position: absolute;
-            top: 4em;
+            top: 2em;
             left: 6em;
+            height:270px;
         }
         form {
-            padding: 4em 4em 4em 8em;
+            padding: 50px 2em .5em 2em;
             max-width: 40em;
+        }
+        form input, form textarea {
+            margin-left: 85px;
         }
     }
 

@@ -63,10 +63,22 @@
         font-weight: 400;
     }
     .footer-links {
-    display:grid;
-    align-items:center;
+        display:grid;
+        align-items:center;
+    }
+        /* clearfix */
+    ul::after {
+        content: '';
+        display: block;
+        clear: both;
     }
 
+    li > a {
+        color:#ffffff;
+    }
+    h3 {
+        font-size:20px;
+    }
 
 </style>
 
