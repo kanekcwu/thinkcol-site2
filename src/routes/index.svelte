@@ -103,8 +103,8 @@
 
 	.figures_img{
 		padding:30px;
-		max-width:100px;
-		max-height:100px;
+		max-width:150px;
+		max-height:150px;
 	}
 
 	.ml_img{
@@ -136,6 +136,10 @@
 		div#index {
 			grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
 		}
+
+		div#index img{
+			width:300px;
+		}
 		div#journey {
 			padding:1em;
 			font-size:12px;	
@@ -146,7 +150,6 @@
 			font-size: 11px;
 		}
 		.ml_img{
-			object-fit: cover;
 			height:100px;
 		}
 		.visualization {
