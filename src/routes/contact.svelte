@@ -56,8 +56,15 @@
         bottom:-40px;
     }
 
-    /* BIG desktop only */
-    @media only screen and (min-width: 1255px) {
+    @media only screen and (max-width: 500px) {
+        span {
+            margin: 0em 1.5em;
+            padding:1em;
+        }
+    }
+
+
+    @media only screen and (min-width: 750px) {
         span {
             position: absolute;
             top: 2em;
@@ -100,6 +107,18 @@
     import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt";
     import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
     import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
+    import { ajax } from "usefuljs/useful.modern.js";
+
+
+    const handleSubmit = e =>{
+        const fd = new FormData(e.target);
+        const fdobj = Object.fromEntries(fd);
+        ajax({
+            url:"https://wjf34y418i.execute-api.us-east-1.amazonaws.com/default/thinkcol-contact-email",
+            method:"post",
+            body:fdobj
+        });
+    }
 </script>
 
 <div>
@@ -121,7 +140,7 @@
         
         
     </span>
-    <form>
+    <form on:submit|preventDefault={handleSubmit}>
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="E-mail" required />
         <textarea placeholder="Type your message" name="message" required />

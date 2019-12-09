@@ -5,6 +5,9 @@
 
 
 <style>
+	div {
+		color: #30486C;
+	}
 	div#index {
 		display:grid;
 		align-items: center;
@@ -12,8 +15,11 @@
 		text-align: justify;
 		grid-template-columns:  repeat(auto-fit, minmax(400px, 1fr));
 		grid-gap: 40px;
-		color: #30486C;
 		padding-bottom:20px;
+	}
+
+	div#index img {
+		width:500px;
 	}
 	b{
 	color:#009FDB;
@@ -42,7 +48,7 @@
 	}
 
 	img {
-	object-fit: cover;
+		  object-fit: cover;
 	}
 
 	.buttons {
@@ -96,8 +102,9 @@
 	}
 
 	.figures_img{
-		height:150px;
 		padding:30px;
+		max-width:100px;
+		max-height:100px;
 	}
 
 	.ml_img{
@@ -105,6 +112,54 @@
 		padding-top:20px;
 		padding-bottom:10px;
 	}
+
+	.visualization{
+		margin-left:20px;
+	}
+
+	@media only screen and (max-width: 650px) {
+		img {
+		  max-height: 100%;
+		  max-width: 100%;
+		}
+		div#figures {
+
+			grid-gap: 5px;
+		}
+		h2 {
+		font-size:18px;
+
+		}
+		h4 {
+		font-size: 12px;
+		}
+		div#index {
+			grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+		}
+		div#journey {
+			padding:1em;
+			font-size:12px;	
+			grid-template-columns: 1fr;
+		}
+
+		h5 {
+			font-size: 11px;
+		}
+		.ml_img{
+			object-fit: cover;
+			height:100px;
+		}
+		.visualization {
+			margin-left:10px;
+		}
+
+		.figures_img{
+			padding:10px;
+			width:100px;
+			height:100px;
+		}
+
+    }
 
 </style>
 
@@ -126,7 +181,7 @@
 
 	</div>
 	<div>
-		<img src="home.png" alt="home" height = "500px"/>
+		<img src="home.png" alt="home"/>
 	</div>
 </div>
 
@@ -167,7 +222,7 @@
 		<img src = "Predictive Analytics.png", alt = 'ai solution' class = "ml_img"/>
 		<h5>Predictive Analytics</h5></div>
 	<div>
-		<img src = "Visualization.png", alt = 'ai solution' class = "ml_img" style="margin-left:20px"/>
+		<img src = "Visualization.png", alt = 'ai solution' class = "ml_img visualization"/>
 		<h5>Visualization</h5></div>
 	<div>
 		<img src = "Computer Vision.png", alt = 'ai solution' class = "ml_img"/>
