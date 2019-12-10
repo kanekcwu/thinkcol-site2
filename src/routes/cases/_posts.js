@@ -10,7 +10,7 @@
 const posts = [
 	{
 		category: ['innovation'],
-		piclink: 'watsons.png',
+		piclink: 'watson.jpg',
 		title: 'Enabling A.S. Watson to be at the forefront of AI in Hong Kong',
 		subtitle: `With the help of ThinkCol, A.S. Watson (ASW) launched an AI.Lab to create numerous AI prototype solutions in a short period of time.`,
 		slug: 'watsons',
@@ -26,7 +26,7 @@ const posts = [
 
 	{
 		category: ['ml'],
-		piclink: 'lenovo.png',
+		piclink: 'Lenovo.JPG',
 		title: 'Lenovo Tunes into Customer Satisfaction Levels with ThinkCol',
 		subtitle: 'With customers satisfaction in mind, Lenovo uses ThinkCol’s tailor made model to provide more insights.',
 		slug: 'lenovo',
@@ -42,7 +42,7 @@ const posts = [
 
 	{
 		category: ['innovation'],
-		piclink: 'aia.png',
+		piclink: 'AIAHackathon.JPG',
 		title: 'AIA Fostering Innovation in Insurance Industry',
 		subtitle: 'LifeHack18 is AIA’s latest innovation effort in challenging the status quo and improving the way AIA interacts with its customers, employees and distribution channels in the insurance industry.',
 		slug: 'innovation',
@@ -62,7 +62,7 @@ const posts = [
 	},
 	{
 		category:['Data','Data Analytics'],
-		piclink: '',
+		piclink: 'CulturalResistance.JPG',
 		title:'Managing Cultural Resistance in AI Adoption',
 		slug:'DebtCollection',
 		html:`
@@ -88,7 +88,7 @@ const posts = [
 	},
 	{
 		category:['Innovation'],
-		piclink:'',
+		piclink:'KerryLogistics.jpg',
 		title:'Kerry Logistics Further Boosts Innovation with ThinkCol',
 		slug:'KerryLogistics',
 		html:`
@@ -114,7 +114,7 @@ const posts = [
 
 	{
 		category:['People'],
-		piclink:'',
+		piclink:'Jewellery.JPG',
 		title:'Leading Jewellery Retailer Equips Staff with AI Knowledge',
 		subtitle: 'From exhibiting various examples to leading a variety of hands-on activities, ThinkCol provided design thinking and AI training for one of Hong Kong’s biggest jewellery retailer to continue their vision of innovation.',
 		slug:'Jewellery',
@@ -133,7 +133,7 @@ const posts = [
 	},
 	{
 		category:['People'],
-		piclink:'',
+		piclink:'Construction.jpeg',
 		title:'Preparing a Construction Giant for the AI Era',
 		subtitle:'With ThinkCol’s courses, one of Asia’s biggest construction company embraces Artificial Intelligence as they strategize innovation as their organization’s key principle.',
 		slug:'Construction',
@@ -153,7 +153,7 @@ const posts = [
 
 	{
 		category: ['people','innovation'],
-		piclink: 'fungtraining.png',
+		piclink: 'Li&FungTraining.JPG',
 		title: 'Sparking Data Solutions in Li and Fung',
 		subtitle: 'With ThinkCol’s data science training, business executives of Fung Retailing can now initiate and sustain data projects.',
 		slug: 'fungtraining',
@@ -171,7 +171,7 @@ const posts = [
 
 	{
 		category:['innovation'],
-		piclink:'',
+		piclink:'ASWHackathon.JPG',
 		title:'A.S. Watson Unearths Tech Talents',
 		subtitle:'36 hours. 110 hackers.  A.S. Watson Hackathon 2018 is a one of a kind event that combines artificial intelligence and the retail industry, nurturing more locally groomed data scientists.',
 		slug:'A.S.WatsonHackathon',
@@ -193,7 +193,7 @@ const posts = [
 
 	{
 		category:['data','data analytics','people','ml'],
-		piclink:'',
+		piclink:'Gov.JPG',
 		title:'Transforming a Quasi-governmental Organization to Become More Data-driven',
 		subtitle:'ThinkCol continuously trained, consulted, and built prototypes for a quasi-governmental organization, increasing its AI and Big Data capabilities to be more self-sustaining.',
 		slug:'Quasi-governmentalOrganization',
@@ -212,7 +212,7 @@ const posts = [
 
 	{
 		category:['innovation'],
-		piclink:'',
+		piclink:'L&FHackathon.JPG',
 		title:'Li & Fung Turns to ThinkCol to Uncover New Supply Chain Solutions',
 		subtitle:'Li & Fung’s Hack the Rack 2018 brings together experts from different fields to co-create solutions focused on international supply chains, accelerating innovation and engaging future talent.',
 		slug:'Li&FungHackathon',
@@ -244,7 +244,7 @@ const posts = [
 
 	{
 		category:['innovation'],
-		piclink:'',
+		piclink:'AXAHackathon.JPG',
 		title:'ThinkCol creates AXA’s First Health Data Focused Hackathon',
 		slug:'AXAHackathon',
 		html:`
@@ -268,7 +268,7 @@ const posts = [
 
 	{
 		category:['Data','Data Analytics'],
-		piclink:'',
+		piclink:'mallinchina.JPG',
 		title:'Analyze Mall Traffic to Understand Customers and Competition',
 		slug:'MallTraffic',
 		html:`
@@ -283,7 +283,7 @@ const posts = [
 
 	{
 		category:['Data'],
-		piclink:'',
+		piclink:'largedatatransaction.JPG',
 		title:'Analyze Large Data Sets to Identify Potential Customer',
 		slug:'LargeDataSet',
 		html:`
@@ -299,7 +299,7 @@ const posts = [
 
 	{
 		category:['data','data analytics'],
-		piclink:'',
+		piclink:'LuxuryRetailer.JPG',
 		title:'Luxury Retailer Streamlines HR Workflow with ThinkCol',
 		slug:'RetailHRWorkflow',
 		html:`
@@ -314,7 +314,7 @@ const posts = [
 
 	{
 		category:['people'],
-		piclink:'',
+		piclink:'AIAccelerator.JPG',
 		title:'Building the First AI Accelerator for a Multinational Conglomerate',
 		slug:'AIAccelerator',
 		html:`
@@ -330,7 +330,7 @@ const posts = [
 
 	{
 		category:['people'],
-		piclink:'',
+		piclink:'LuxuryRetailTraining.JPG',
 		title:'Luxury Retailer Promotes Better Data Management',
 		slug:'DataManagement',
 		html:`
@@ -344,7 +344,7 @@ const posts = [
 	},
 	{
 		category: ['data','ml'],
-		piclink: 'vinsionaire.png',
+		piclink: 'Vinsionaire.jpeg',
 		title: 'Automating and Predicting Wine Prices for the Future',
 		subtitle: 'Vinsionaire’s new system allows the wine retailer to understand future trends and offer even better services to its clients.',
 		slug: 'vinsionaire',

@@ -1,5 +1,4 @@
 <script>
-	import StartSurveyQ from "../components/home/startsurveyq.svelte";
 	import { goto } from "@sapper/app";
 </script>
 
@@ -191,15 +190,15 @@
 <div id = "figures">
 	<div>
 		<h4> <b>14+</b> Industries</h4>
-		<img src = "Industry.png", alt = 'industry' class = "figures_img"/>
+		<img src = "Industry.png" alt = 'industry' class = "figures_img"/>
 	</div>
 	<div>
 		<h4> <b>100+</b> Prototypes/AI Solutions</h4>
-		<img src = "AI Solution.png", alt = 'ai solution' class = "figures_img"/>
+		<img src = "AI Solution.png" alt = 'ai solution' class = "figures_img"/>
 	</div>
 	<div>
 		<h4> <b>23+</b> Hackathons</h4>
-		<img src = "Hackathon.png", alt = 'hackathon' class = "figures_img"/>
+		<img src = "Hackathon.png" alt = 'hackathon' class = "figures_img"/>
 	</div>
 </div>
 
@@ -218,19 +217,23 @@
 
 <div id = "ml-services">
 	<div>
-		<img src = "Natural Language Processing.png", alt = 'ai solution' class = "ml_img"/>
+		<img src = "Natural Language Processing.png" alt = 'ai solution' class = "ml_img"/>
 		<h5>Natural Language Processing</h5>
 	</div>
 	<div>
-		<img src = "Predictive Analytics.png", alt = 'ai solution' class = "ml_img"/>
-		<h5>Predictive Analytics</h5></div>
+		<img src = "Predictive Analytics.png" alt = 'ai solution' class = "ml_img"/>
+		<h5>Predictive Analytics</h5>
+	</div>
 	<div>
-		<img src = "Visualization.png", alt = 'ai solution' class = "ml_img visualization"/>
-		<h5>Visualization</h5></div>
+		<img src = "Visualization.png" alt = 'ai solution' class = "ml_img visualization"/>
+		<h5>Visualization</h5>
+	</div>
 	<div>
-		<img src = "Computer Vision.png", alt = 'ai solution' class = "ml_img"/>
-		<h5>Computer Vision</h5></div>
+		<img src = "Computer Vision.png" alt = 'ai solution' class = "ml_img"/>
+		<h5>Computer Vision</h5>
+	</div>
 	<div>
-		<img src = "Big Data Processing.png", alt = 'ai solution' class = "ml_img"/>
-		<h5>Big Data Processing</h5></div>
+		<img src = "Big Data Processing.png" alt = 'ai solution' class = "ml_img"/>
+		<h5>Big Data Processing</h5>
+	</div>
 </div>

@@ -73,18 +73,26 @@
     }
 
     .text-block {
-  	  font-weight:bold;
-      color: #30486C;
+  	  font-weight:normal;
+      color: #ffff;
       width: 300px;
 	  position: absolute;
-	  top: 88%;
+	  top: 80%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
+
 	}
 
 	.image {
 	  text-align: left;
   	  position: relative;
+  	  background: 
+		    linear-gradient(
+		      to bottom,
+		      rgba(0, 0, 0, 0),
+		      rgba(0, 0, 0, 1.0)
+		    );
+	  border-radius: 10%;
 	}
 
 </style>

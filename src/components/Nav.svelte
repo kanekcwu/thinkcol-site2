@@ -64,6 +64,10 @@
 		margin-top:15px;
 	}
 
+	a.logo img {
+		height:35px;
+	}
+
 	button {
         background-color: #ffffff;
         border: 2px solid #30486C;
@@ -99,11 +103,12 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand logo" href='.'><img src="thinkcol-logo.png" alt="logo" height="35px" /></a>
+
+  <a class="navbar-brand logo" href="."><img src="thinkcol-logo.png" alt="logo" /></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a on:click={()=>goto("contact")>Home</a></li>
+      <li class="nav-item"><a class:selected='{segment === undefined}' href='about'>Home</a></li>
 	  <li class="nav-item"><a class:selected='{segment === "about"}' href='about'>About</a></li>
 	  <li class="nav-item"><a class:selected='{segment === "cases"}' href='cases'>Case Studies</a></li>
 	  <li class="nav-item"><button on:click={()=>goto("contact")}>Contact</button></li>
