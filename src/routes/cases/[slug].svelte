@@ -54,7 +54,9 @@
 
 <h1>{post.title}</h1>
 
-<h3>{post.subtitle}</h3>
+{#if post.subtitle}
+	<h3>{post.subtitle}</h3>
+{/if}
 <!--
 <img src={post.piclink} alt="image" class="mx-auto d-block p-5">
 -->
