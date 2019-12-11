@@ -22,6 +22,10 @@
 		short_hand: 'innovation',
 	},
 	{
+		name:'Analytics',
+		short_hand: 'analytics',
+	},
+	{
 		name:'People',
 		short_hand: 'people',
 	},
@@ -67,7 +71,7 @@
 
 	#title {
 		font-style: normal;
-		font-weight: bold;
+		font-weight: 400;
 		font-size: 20px;
 		color: #30486C;
     }

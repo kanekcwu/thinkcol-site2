@@ -55,9 +55,9 @@
 <h1>{post.title}</h1>
 
 <h3>{post.subtitle}</h3>
-
+<!--
 <img src={post.piclink} alt="image" class="mx-auto d-block p-5">
-
+-->
 <div class='content'>
 	{@html post.html}
 </div>

@@ -61,7 +61,7 @@ const posts = [
 	`
 	},
 	{
-		category:['Data','Data Analytics'],
+		category:['data','analytics'],
 		piclink: 'CulturalResistance.JPG',
 		title:'Managing Cultural Resistance in AI Adoption',
 		slug:'DebtCollection',
@@ -87,7 +87,7 @@ const posts = [
 		
 	},
 	{
-		category:['Innovation'],
+		category:['innovation'],
 		piclink:'KerryLogistics.jpg',
 		title:'Kerry Logistics Further Boosts Innovation with ThinkCol',
 		slug:'KerryLogistics',
@@ -113,7 +113,7 @@ const posts = [
 	},
 
 	{
-		category:['People'],
+		category:['people'],
 		piclink:'Jewellery.JPG',
 		title:'Leading Jewellery Retailer Equips Staff with AI Knowledge',
 		subtitle: 'From exhibiting various examples to leading a variety of hands-on activities, ThinkCol provided design thinking and AI training for one of Hong Kong’s biggest jewellery retailer to continue their vision of innovation.',
@@ -132,7 +132,7 @@ const posts = [
 		`
 	},
 	{
-		category:['People'],
+		category:['people'],
 		piclink:'Construction.jpeg',
 		title:'Preparing a Construction Giant for the AI Era',
 		subtitle:'With ThinkCol’s courses, one of Asia’s biggest construction company embraces Artificial Intelligence as they strategize innovation as their organization’s key principle.',
@@ -192,7 +192,7 @@ const posts = [
 	},
 
 	{
-		category:['data','data analytics','people','ml'],
+		category:['data','analytics','people','ml'],
 		piclink:'Gov.JPG',
 		title:'Transforming a Quasi-governmental Organization to Become More Data-driven',
 		subtitle:'ThinkCol continuously trained, consulted, and built prototypes for a quasi-governmental organization, increasing its AI and Big Data capabilities to be more self-sustaining.',
@@ -267,7 +267,7 @@ const posts = [
 	},
 
 	{
-		category:['Data','Data Analytics'],
+		category:['data','analytics'],
 		piclink:'mallinchina.JPG',
 		title:'Analyze Mall Traffic to Understand Customers and Competition',
 		slug:'MallTraffic',
@@ -282,7 +282,7 @@ const posts = [
 	},
 
 	{
-		category:['Data'],
+		category:['data'],
 		piclink:'largedatatransaction.JPG',
 		title:'Analyze Large Data Sets to Identify Potential Customer',
 		slug:'LargeDataSet',
@@ -298,7 +298,7 @@ const posts = [
 	},
 
 	{
-		category:['data','data analytics'],
+		category:['data','analytics'],
 		piclink:'LuxuryRetailer.JPG',
 		title:'Luxury Retailer Streamlines HR Workflow with ThinkCol',
 		slug:'RetailHRWorkflow',
@@ -314,9 +314,12 @@ const posts = [
 
 	{
 		category:['people'],
-		piclink:'AIAccelerator.JPG',
+		piclink:'AIAccelerator.jpg',
+		smallpiclink:'aiacceleratorsmall.jpg',
+		smalltitle:'AI Accelerator',
 		title:'Building the First AI Accelerator for a Multinational Conglomerate',
 		slug:'AIAccelerator',
+		othercases:['watsons','retailhrworkflow',''],
 		html:`
 		<p>
 		A multinational conglomerate that is reThinkCol tailored each session to specific business units and offered training to staff of all levels.  The courses helped them to develop the technological skills that would help them in their respective positions in the company.  For instance, staff from client-facing departments learned more convenient ways to input and search for client data as well as generate reports for specific purposes.
@@ -330,7 +333,7 @@ const posts = [
 
 	{
 		category:['people'],
-		piclink:'LuxuryRetailTraining.JPG',
+		piclink:'LuxuryRetailTraining.jpg',
 		title:'Luxury Retailer Promotes Better Data Management',
 		slug:'DataManagement',
 		html:`

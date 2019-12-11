@@ -110,8 +110,6 @@
         <ul>
             <li><a class:selected='{segment === undefined}' href='.'>Home</a>
             </li><li><a class:selected='{segment === "about"}' href='about'>About</a>
-            </li><li><a class:selected='{segment ===" team"}' href='.'>Team</a>
-            </li><li><a class:selected='{segment === "service"}' href='service'>Service</a>
             </li><li><a class:selected='{segment === "case"}' href='case'>Case Studies</a>
             </li>
         </ul>
@@ -127,11 +125,12 @@
     </div>
     <div>
         <h3>Stay Connected</h3>
+        <!--
         <form on:submit|preventDefault={handleSignup}>
             <p>Subscribe to our newsletter</p>
             <input type="email" name="email" required />
             <button type="submit">Sign-up</button>
-        </form>
+        </form>-->
         
     </div>
 

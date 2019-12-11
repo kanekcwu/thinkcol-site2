@@ -70,6 +70,7 @@
             top: 2em;
             left: 6em;
             height:270px;
+            width:850px;
         }
         form {
             padding: 50px 2em .5em 2em;
@@ -140,10 +141,12 @@
         
         
     </span>
+    <!--
     <form on:submit|preventDefault={handleSubmit}>
+        
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="E-mail" required />
-        <textarea placeholder="Type your message" name="message" required />
+        <textarea placeholder="Contact us to find out how we can achieve your AI goals.  We will get back to you as soon as possible." name="message" required />
         <button type="submit">Send</button>
-    </form>
+    </form>-->
 </div>
